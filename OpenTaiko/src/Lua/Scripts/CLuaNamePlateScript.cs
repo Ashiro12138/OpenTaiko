@@ -20,7 +20,7 @@ namespace TJAPlayer3 {
 		}
 
 		public int GetCharaOffset() {
-			if (!Avaibale) return 0;
+		    if (!Avaibale) return 0;
 			double result = (double)RunLuaCode(lfGetCharaOffset)[0];
 			return (int)result;
 		}
